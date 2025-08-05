@@ -16,13 +16,13 @@ This course covers the following competencies, which represent the knowledge and
 <br/>Dash / JupyterDash: Frameworks used to create the interactive dashboard.
 <br/>VS Code (Optional): Recommended for editing .py files like animal_shelter.py.
 
-# Software Test Project Overview
+# Client Server Project Overview
 __Project Summary__<br/>
 This is a Python dashboard built using Dash and MongoDB for Grazioso Salvare, a company that trains rescue dogs. The dashboard helps the client filter and view dogs from animal shelters in the Austin, TX area.
 The dashboard was built in Jupyter Notebook and connects to a MongoDB database using a custom Python module (animal_shelter.py) that supports basic CRUD operations.
 <br/>
 
-__Features__<br/>
+__Features__
 <br/>Filters to select Rescue Type and Outcome Type
 <br/>Reset button to clear filters
 <br/>Data table showing matching animal records
