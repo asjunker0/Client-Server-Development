@@ -75,15 +75,36 @@ COL  = "animals"
 
 <br/> 8. Interact with the dashboard!
 
+# Dashboard Executions
+__Unfiltered View:__
+<img width="975" height="402" alt="image" src="https://github.com/user-attachments/assets/391827b7-ec22-4c4b-85b6-ccf6aeda8082" />
+
+<br/> __Water Rescue Type Filtering:__
+<img width="975" height="428" alt="image" src="https://github.com/user-attachments/assets/a776c775-d63a-48a5-80db-816bdee2eca5" />
+
+<br/> __Mountain or Wilderness Rescue Type Filtering:__
+<img width="975" height="572" alt="image" src="https://github.com/user-attachments/assets/37d9e0b3-e377-4bd0-8a01-1b8844204007" />
+
+<br/> __Disaster or Individual Tracking Type Filtering:__
+<img width="975" height="575" alt="image" src="https://github.com/user-attachments/assets/48c3a626-3a68-44ef-97a2-34ebee3fe68f" />
+
+<br/> __Reset Button Clicked:__
+<img width="975" height="630" alt="image" src="https://github.com/user-attachments/assets/e3d73db2-2339-4c5c-bec1-23c305ec13b5" />
+
+<br/> __Pie Chart and Geolocation Widget Example:__
+<img width="975" height="423" alt="image" src="https://github.com/user-attachments/assets/34ea1145-6b40-4046-a0f8-7dd9bb1675e9" />
+
 # SNHU project questions
 
 __How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?__
 
 For programs to be maintainable, readable, and adaptable, they need to be modular and independantly working. It also helps with readability to follow naming conventions by having clear and readable variable names along with commented descriptions and documentation. It's easy to maintain organization, especially in this project, by keeping the CRUD functions in their own moule while having the dash in another file. This keeps them modular, so they are maintainable and adaptable.
+<br/> <br/>
 
 __How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?__
 
 As a computer scientist its important to approach a problem by understanding the requirements of the program. Identifying these requirements offer a base level of what is absolutely needed for the program to function, for example, a filter in the dash that filters the data by type. After that comes some design of the CRUD module and Dash. Then building and testing functionality.
+<br/> <br/>
 
 __What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?__
 
