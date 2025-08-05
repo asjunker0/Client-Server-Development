@@ -30,9 +30,49 @@ __Features__
 <br/>Geolocation map showing selected animal's location
 
 # Getting started
-<br/> Refer to AAC Clientside Dataset README.docx for setup and installation details
+Follow these steps to get the dashboard running **on your own machine**:
 <br/> 1. Download "CS 340 Project Two.zip" file and extract
-<br/> 2. Access
+<br/> 2. Install Prerequisites
+- Python 3.8+
+- MongoDB Community Edition
+  
+<br/> 3. Start MongoDB
+<br/> macOS/Linux
+<br/> `mongod --dbpath /path/to/your/data/folder`
+<br/> Windows
+<br/> `mongod --dbpath C:\data\db`
+<br/> 4. Import the sample data
+```bash
+mongoimport \
+  --db AAC \
+  --collection animals \
+  --type csv \
+  --headerline \
+  --drop \
+  --file data/aac_shelter_outcomes.csv
+mongoimport \
+  --db companies \
+  --collection research \
+  --drop \
+  --file data/companies.json
+```
+<br/> 5. Configure your MongoDB Credentials
+<br/> Open animal_shelter.py in a text editor. At the top fill in your MongoDB info:
+```python
+USER = "YOUR_MONGO_USER"
+PASS = "YOUR_MONGO_PASS"
+HOST = "localhost"
+PORT = 27017
+DB   = "AAC"
+COL  = "animals"
+```
+<br/> 6. Launch Jupyter Notebook
+<br/> 7. Open and Run the Dashboard Notebook
+- Click ProjectTwoDashboard.ipynb
+- In the notebook toolbar choose Kernel then Restart and Run All
+- Scroll to the bottom; click the URL to open the live dashboard in a new tab
+
+<br/> 8. Interact with the dashboard!
 
 # SNHU project questions
 
