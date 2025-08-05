@@ -33,7 +33,8 @@ __Features__
 Follow these steps to get the dashboard running **on your own machine**:
 <br/> 1. Download "CS 340 Project Two.zip" file and extract
 <br/> 2. Install Prerequisites
-- Python 3.8+
+- Python 3.8+ then run:
+  `pip install pymongo pandas dash jupyter-dash dash-leaflet plotly`
 - MongoDB Community Edition
   
 <br/> 3. Start MongoDB
