@@ -48,6 +48,9 @@ __Unfiltered View:__
 <br/> __Pie Chart and Geolocation Widget Example:__
 <img width="975" height="423" alt="image" src="https://github.com/user-attachments/assets/34ea1145-6b40-4046-a0f8-7dd9bb1675e9" />
 
+<br/> __CRUD methods in python file:__</br>
+<img width="783" height="646" alt="image" src="https://github.com/user-attachments/assets/c7d7b543-46f5-419e-a2eb-ba8a806df074" />
+
 # SNHU project questions
 
 __How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?__
