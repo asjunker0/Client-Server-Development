@@ -18,16 +18,16 @@ This course covers the following competencies, which represent the knowledge and
 
 # Client Server Project Overview
 __Project Summary__<br/>
-This is a Python dashboard built using Dash and MongoDB for Grazioso Salvare, a company that trains rescue dogs. The dashboard helps the client filter and view dogs from animal shelters in the Austin, TX area.
-The dashboard was built in Jupyter Notebook and connects to a MongoDB database using a custom Python module (animal_shelter.py) that supports basic CRUD operations.
+Built a full-stack data dashboard using Python (Dash) and MongoDB to help a client filter and analyze animal shelter data in real time.
+Implemented a custom Python CRUD module to handle database interactions and support dynamic filtering, visualization, and geolocation features.
 <br/>
 
 __Features__
-<br/>Filters to select Rescue Type and Outcome Type
-<br/>Reset button to clear filters
-<br/>Data table showing matching animal records
-<br/>Pie chart showing breed distribution
-<br/>Geolocation map showing selected animal's location
+<br/>Implemented dynamic filtering for rescue and outcome types using MongoDB queries
+<br/>Built an interactive data table to display filtered results in real time
+<br/>Developed data visualizations including breed distribution (pie chart)
+<br/>Integrated geolocation mapping to display animal locations
+<br/>Designed a reset mechanism to restore default dataset state
 
 # Dashboard Executions
 __Unfiltered View:__
@@ -51,18 +51,10 @@ __Unfiltered View:__
 <br/> __CRUD methods in python file:__</br>
 <img width="783" height="646" alt="image" src="https://github.com/user-attachments/assets/c7d7b543-46f5-419e-a2eb-ba8a806df074" />
 
-# SNHU project questions
+<br/> __Core Backend Logic__<br/>
+* Developed a reusable Python CRUD module (animal_shelter.py) to abstract database operations
+* Implemented create, read, update, and delete functionality for MongoDB collections
+* Designed modular backend logic to separate data handling from UI components
+* Enabled scalability by allowing the dashboard to easily integrate with different datasets
 
-__How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?__
 
-For programs to be maintainable, readable, and adaptable, they need to be modular and independantly working. It also helps with readability to follow naming conventions by having clear and readable variable names along with commented descriptions and documentation. It's easy to maintain organization, especially in this project, by keeping the CRUD functions in their own moule while having the dash in another file. This keeps them modular, so they are maintainable and adaptable.
-<br/> <br/>
-
-__How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?__
-
-As a computer scientist its important to approach a problem by understanding the requirements of the program. Identifying these requirements offer a base level of what is absolutely needed for the program to function, for example, a filter in the dash that filters the data by type. After that comes some design of the CRUD module and Dash. Then building and testing functionality.
-<br/> <br/>
-
-__What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?__
-
-Computer scientists take real world problems and turn them into automated solutions. In this project, we needed a way to filter data, like dogs based on breed. This is automated with a user friendly interface and CRUD logic that is capable of filtering that data in a matter of seconds. This matters because it turns hours of manual searching and spreadsheet-shuffling into seconds of interactive filtering. It reduces human error and scales as data grows.
