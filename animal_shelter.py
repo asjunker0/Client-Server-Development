@@ -38,7 +38,7 @@ class AnimalShelter(object):
         self.database = self.client[self.DB]
         self.collection = self.database[self.COL]
 
-# Complete this create method to implement the C in CRUD.
+# Method to implement the C in CRUD.
     def create(self, data):
         if data is not None:
             result = self.collection.insert_one(data)
@@ -46,7 +46,7 @@ class AnimalShelter(object):
         else:
             raise Exception("Nothing to save, because data parameter is empty")
 
-# Create method to implement the R in CRUD.
+# Method to implement the R in CRUD.
     def read(self, query):
         if isinstance(query, dict):
             results = list(self.collection.find(query))
