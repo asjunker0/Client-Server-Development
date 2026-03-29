@@ -2,7 +2,7 @@
 CS-340 Client-Server-Development
 <br/>
 <br/>(From the SNHU CS-340 Syllabus)
-<br/>Students will learn how to apply database systems concepts and principles to develop client/server applications that interface client-side code with databases.
+<br/>Learn how to apply database systems concepts and principles to develop client/server applications that interface client-side code with databases.
 
 # Course Competencies
 This course covers the following competencies, which represent the knowledge and skills relevant to the field:
