@@ -65,5 +65,6 @@ __Unfiltered View:__
 - Click "Create Database"
 - Name Database: ```AAC```
 - Name Collection: ```animals```
-- Import dataset
+- Import dataset ```Austin_Animal_Center.csv``` (For a more recent dataset, download directly from ```data.austintexas.gov```)
+- 
 
