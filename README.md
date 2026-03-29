@@ -57,4 +57,13 @@ __Unfiltered View:__
 * Designed modular backend logic to separate data handling from UI components
 * Enabled scalability by allowing the dashboard to easily integrate with different datasets
 
+# How to Run
+- Ensure MongoDB Compass is installed
+- Ensure MongoDB server is running
+- Open Compass and connect to your local host
+- ```mongodb://localhost:yourport```
+- Click "Create Database"
+- Name Database: ```AAC```
+- Name Collection: ```animals```
+- Import dataset
 
