@@ -28,8 +28,9 @@ real-time filtering and analysis of Austin Animal Center intake records.
 - **Jupyter** — development and dashboard execution
 - **VS Code** *(optional)* — recommended for editing `.py` and `.ipynb` files
 
-# Dashboard Executions
-__Unfiltered View:__
+## Demo
+Below are examples of the dashboard in action, including filtering, search, and geospatial visualization.
+<br/>__Unfiltered View:__
 <!--<img width="975" height="402" alt="image" src="https://github.com/user-attachments/assets/391827b7-ec22-4c4b-85b6-ccf6aeda8082" />-->
 <img width="1778" height="909" alt="image" src="https://github.com/user-attachments/assets/64d4af19-0885-484f-979f-0525b8012b06" />
 
@@ -63,6 +64,12 @@ __Unfiltered View:__
 <br/>Designed modular backend logic to separate data handling from UI components
 <br/>Enabled scalability by allowing the dashboard to easily integrate with different datasets-->
 
+## What This Project Demonstrates
+- Full-stack application development using Python and MongoDB
+- Separation of frontend and backend logic through a reusable CRUD module
+- Real-time data querying and visualization
+- Handling of geospatial data within an interactive UI
+
 # How to Run
 
 ### Prerequisites
@@ -71,7 +78,7 @@ __Unfiltered View:__
 
 ### 1. Install Dependencies
 ```bash
-pip install dash jupyter-dash dash-leaflet pandas pymongo plotly numpy matplotlib
+pip install dash dash-leaflet pandas pymongo plotly numpy matplotlib
 ```
 
 ### 2. Set Up MongoDB
@@ -98,4 +105,5 @@ pip install dash jupyter-dash dash-leaflet pandas pymongo plotly numpy matplotli
 - Ensure `animal_shelter.py` and `Dashboard.ipynb` are in the **same directory**
 - Open and run `Dashboard.ipynb`
 - The dashboard will be available at `http://127.0.0.1:8050/`
+
 
