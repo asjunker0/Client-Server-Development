@@ -52,11 +52,11 @@ __Unfiltered View:__
 <img width="783" height="646" alt="image" src="https://github.com/user-attachments/assets/c7d7b543-46f5-419e-a2eb-ba8a806df074" />
 
 <br/> __Core Backend Logic__<br/>
-* Developed a reusable Python CRUD module (animal_shelter.py) to abstract database operations
-* Implemented create, read, update, and delete functionality for MongoDB collections
-* Designed modular backend logic to separate data handling from UI components
-* Enabled scalability by allowing the dashboard to easily integrate with different datasets
-
+<br/>Developed a reusable Python CRUD module (animal_shelter.py) to abstract database operations
+<br/>Implemented create, read, update, and delete functionality for MongoDB collections
+<br/>Designed modular backend logic to separate data handling from UI components
+<br/>Enabled scalability by allowing the dashboard to easily integrate with different datasets
+<!--
 # How to Run
 - Ensure MongoDB Compass is installed
 - Install dependencies in bash:
@@ -68,5 +68,8 @@ __Unfiltered View:__
 - Name Database: ```AAC```
 - Name Collection: ```animals```
 - Import dataset ```Austin_Animal_Center.csv``` (For a more recent dataset, download directly from ```data.austintexas.gov```)
-- 
+- Run ```Dashboard.ipynb``` file
+- Enjoy exploring data!
 
+COULD NOT REPLICATE PROJECT OUTSIDE OF VIRTUAL MACHINE ENVIRONMENT
+-->
