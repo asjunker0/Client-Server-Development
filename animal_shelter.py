@@ -12,33 +12,17 @@ from bson.objectid import ObjectId
 class AnimalShelter(object):
     """ CRUD operations for Animal collection in MongoDB """
 
-    def __init__(self, username, password, host, port, db, col):
-        # Initializing the MongoClient. This helps to 
-        # access the MongoDB databases and collections.
-        # This is hard-wired to use the aac database, the 
-        # animals collection, and the aac user.
-        # Definitions of the connection string variables are
-        # unique to the individual Apporto environment.
-        #
-        # You must edit the connection variables below to reflect
-        # your own instance of MongoDB!
-        #
-        # Connection Variables
-        #
-        self.USER = username
-        self.PASS = password
+    def __init__(self, host, port, db, col):
         self.HOST = host
         self.PORT = port
         self.DB = db
         self.COL = col
-        #
-        # Initialize Connection
-        #
-        self.client = MongoClient(f'mongodb://{self.USER}:{self.PASS}@{self.HOST}:{self.PORT}')
+
+        self.client = MongoClient(f'mongodb://{self.HOST}:{self.PORT}')
         self.database = self.client[self.DB]
         self.collection = self.database[self.COL]
 
-# Method to implement the C in CRUD.
+# Complete this create method to implement the C in CRUD.
     def create(self, data):
         if data is not None:
             result = self.collection.insert_one(data)
@@ -46,7 +30,7 @@ class AnimalShelter(object):
         else:
             raise Exception("Nothing to save, because data parameter is empty")
 
-# Method to implement the R in CRUD.
+# Create method to implement the R in CRUD.
     def read(self, query):
         if isinstance(query, dict):
             results = list(self.collection.find(query))
