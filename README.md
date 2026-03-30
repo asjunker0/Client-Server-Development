@@ -59,6 +59,8 @@ __Unfiltered View:__
 
 # How to Run
 - Ensure MongoDB Compass is installed
+- Install dependencies in bash:
+- ```pip install dash pandas pymongo plotly jupyter dash-leaflet```
 - Ensure MongoDB server is running
 - Open Compass and connect to your local host
 - ```mongodb://localhost:yourport```
