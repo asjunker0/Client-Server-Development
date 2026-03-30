@@ -29,7 +29,7 @@ real-time filtering and analysis of Austin Animal Center intake records.
 - **VS Code** *(optional)* — recommended for editing `.py` and `.ipynb` files
 
 # Dashboard Executions
-__Last Page of Unfiltered View:__
+__Unfiltered View:__
 <!--<img width="975" height="402" alt="image" src="https://github.com/user-attachments/assets/391827b7-ec22-4c4b-85b6-ccf6aeda8082" />-->
 <img width="1778" height="909" alt="image" src="https://github.com/user-attachments/assets/64d4af19-0885-484f-979f-0525b8012b06" />
 
@@ -41,11 +41,11 @@ __Last Page of Unfiltered View:__
 
 <br/> __Mountain or Wilderness Rescue Type Filtering:__
 <!--<img width="975" height="572" alt="image" src="https://github.com/user-attachments/assets/37d9e0b3-e377-4bd0-8a01-1b8844204007" />-->
-<img width="1869" height="941" alt="image" src="https://github.com/user-attachments/assets/ddffa4f2-16f0-4616-8efb-9520fcd62fc2" />
+<img width="1017" height="1181" alt="image" src="https://github.com/user-attachments/assets/9f9e2208-72d7-44a8-bbf9-b450d92fbf41" />
 
 
-<br/> __Rescue and Intake Type Filtering:__
-<!--<img width="975" height="575" alt="image" src="https://github.com/user-attachments/assets/48c3a626-3a68-44ef-97a2-34ebee3fe68f" />-->
+<!--<br/> __Rescue and Intake Type Filtering:__
+<img width="975" height="575" alt="image" src="https://github.com/user-attachments/assets/48c3a626-3a68-44ef-97a2-34ebee3fe68f" />
 <img width="1878" height="946" alt="image" src="https://github.com/user-attachments/assets/1269e334-0ed5-4025-870f-ba772127be0f" />
 
 <!--<br/> __Pie Chart and Geolocation Widget Example:__
@@ -57,11 +57,11 @@ __Last Page of Unfiltered View:__
 <br/> __CRUD methods in python file:__</br>
 <img width="783" height="646" alt="image" src="https://github.com/user-attachments/assets/c7d7b543-46f5-419e-a2eb-ba8a806df074" />
 
-<br/> __Core Backend Logic__<br/>
+<!--<br/> __Core Backend Logic__<br/>
 <br/>Developed a reusable Python CRUD module (animal_shelter.py) to abstract database operations
 <br/>Implemented create, read, update, and delete functionality for MongoDB collections
 <br/>Designed modular backend logic to separate data handling from UI components
-<br/>Enabled scalability by allowing the dashboard to easily integrate with different datasets
+<br/>Enabled scalability by allowing the dashboard to easily integrate with different datasets-->
 
 # How to Run
 
